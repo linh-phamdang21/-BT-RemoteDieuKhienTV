@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="television.firstDisplay()">
+<div class="container">
+    <div class="body">
+        <table>
+            <tr style="text-align: right">
+                <td>Power <input style="width: 30px" type="text" id="tvpower"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center"><input style="width: 50px" type="text" id="tvchannel"></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;"> Volumn <input style="width: 20px" type="text" id="tvvolumn"></td>
+            </tr>
+        </table>
+    </div>
+    <div style="text-align: center">
+        <button id="redlight" style="background-color: red"></button>
+    </div>
+</div>
+<br><br>
+<div>
+    <table class="tb1">
+        <tr>
+            <td colspan="2"> <button onclick="remote.powerButton(television)"> Power </button></td>
+        </tr>
+        <tr>
+            <td> <button onclick="remote.changeChanelUp(television)"> ChannelUp </button> </td>
+            <td> <button onclick="remote.changeVolumnUp(television)"> VolumnUp</button></td>
+        </tr>
+        <tr>
+            <td> <button onclick="remote.changeChanelDown(television)"> ChannelDown </button></td>
+            <td> <button onclick="remote.changeVolumnDown(television)"> VolumnDown </button></td>
+        </tr>
+    </table>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

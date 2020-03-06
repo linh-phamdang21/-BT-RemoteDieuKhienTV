@@ -1,0 +1,35 @@
+.container{
+    border: black 2px solid;
+    border-collapse: collapse;
+    background-color: black;
+    height: 250px;
+    width: 400px;
+}
+
+.body{
+    border: black 2px solid;
+    border-collapse: collapse;
+    background-color: white;
+    height: 220px;
+    widows: 350px;
+}
+
+table{
+    border: black 2 px solid;
+}
+table td {
+    width: 400px;
+}
+
+table tr {
+    height: 80px;
+}
+
+table td {
+    text-align: center;
+}
+.tb1{
+    border: black 1px solid;
+    border-radius: 10px;
+    width: 100px;
+}
